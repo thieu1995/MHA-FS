@@ -1,52 +1,43 @@
-# MHA-FS: Feature Selection using Meta-Heuristic Algorithms (MEALPY)
+
+# Notification
+
+**The biggest open-source Python library for feature selection has been successfully completed and is now available on 
+GitHub at** https://github.com/thieu1995/mafese.
+
+**MAFESE** is an improved and completed version of this module. It not only includes all meta-heuristic algorithms, but 
+it also categorizes them into different feature selection methods. These methods include traditional techniques 
+such as filter-based, wrapper-based, unsupervised-based, and embedded-based methods. Among them, 
+metaheuristic-based feature selection belongs to the filter-based method.
 
 
-## The biggest Feature Selection Solver using Meta-Heuristic Algorithms
-
-```code 
-
-Better than this package: https://github.com/Ritam-Guha/Py_FS
-
-+ Cleaner code and shorter code 
-+ More Meta-Heuristic Algorithms / nature-inspred evolutionary 
-+ Can use multiple metrics to select features 
-
-```
-
-### Mealpy
-
-https://github.com/thieu1995/mealpy
+# Feature Selection using Meta-Heuristic Algorithms (MEALPY)
 
 
+# Usage
 
-### Permetrics
+## Dependencies 
 
-https://github.com/thieu1995/permetrics
-
-```code 
-
-The classification metrics in this library has not finished yet. 
-So the current usage metrics are taken from sklearn.metrics 
-
-```
-
-
+1. Mealpy (https://github.com/thieu1995/mealpy)
+2. Permetrics (https://github.com/thieu1995/permetrics)
 
 ## Setup environments
 
+### Pip 
 ```code 
+pip install numpy, pandas, scikit-learn, matplotlib
+pip install mealpy==2.5.0
+pip install permetrics==1.3.0
+```
 
+### Conda 
+```code 
 conda create -n ml python==3.7.5
 conda activate ml
-
-conda install -c conda-forge numpy
-conda install -c conda-forge pandas
-conda install -c conda-forge scikit-learn
-conda install -c conda-forge matplotlib
-pip install mealpy==2.4.0 
-pip install permetrics==1.2.2
-
+conda install -c conda-forge numpy, pandas, scikit-learn, matplotlib
+pip install mealpy==2.5.0
+pip install permetrics==1.3.0
 ```
+
 
 ## Examples
 
