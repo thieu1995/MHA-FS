@@ -12,13 +12,13 @@ metaheuristic-based feature selection belongs to the filter-based method.
 
 # Feature Selection using Meta-Heuristic Algorithms (MEALPY)
 
-
-# Usage
-
 ## Dependencies 
 
 1. Mealpy (https://github.com/thieu1995/mealpy)
 2. Permetrics (https://github.com/thieu1995/permetrics)
+3. Scikit-learn (https://scikit-learn.org/stable/index.html)
+4. Pandas (https://pandas.pydata.org/)
+5. Matplotlib (https://matplotlib.org/)
 
 ## Setup environments
 
